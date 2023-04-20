@@ -13,3 +13,9 @@ var fullName;
 fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
+//boolean
+var a = false;
+console.log(a);
+console.log(typeof a);
+a = true;
+console.log(a);
