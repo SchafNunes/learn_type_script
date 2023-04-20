@@ -12,3 +12,19 @@ console.log(typeof y)
 console.log(y)
 
 console.log(y.toPrecision(3))
+
+//string 
+
+const firstName: string  = "Matheus"
+
+console.log(firstName.toUpperCase())
+
+const lastName: string = "Nunes"
+
+let fullName: string 
+
+fullName = firstName + " " + lastName
+
+console.log(fullName)
+
+console.log(typeof fullName)
