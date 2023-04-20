@@ -1,8 +1,8 @@
-const valorUm = 5
-const valorDois = 8 
+const valor1 = 5
+const valor2 = 8 
 
 function soma(valorDois : number, valorUm : number) {
   return valorDois + valorUm
 }
 
-console.log(soma(valorDois, valorUm))
+console.log(soma(valor1, valor2))
