@@ -39,3 +39,9 @@ console.log(typeof a)
 
 a = true 
 console.log(a)
+
+//inference e annotation
+
+const ann: string = "Teste"
+
+let inf = "Teste"
