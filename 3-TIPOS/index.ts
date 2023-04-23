@@ -94,3 +94,11 @@ function advancedGreeting(firstName: string, lastName?: string) {
 
 console.log(advancedGreeting("João", "Nunes"))
 console.log(advancedGreeting("João"))
+
+//10 - union Type
+function showBlance(balance: string | number) {
+    console.log(`O saldo é ${balance}`)
+}
+
+showBlance('345')
+showBlance(345)
