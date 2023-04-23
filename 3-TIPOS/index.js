@@ -40,3 +40,11 @@ function passCooedinates(coord) {
 const objCoord = { x: 329, y: 452 };
 passCooedinates(objCoord);
 const nomeFunc = { nome: "Matheus", sobrenome: "Nunes" };
+// 8 - props opcionais
+function showNumbers(a, b, c) {
+    console.log("A: " + a);
+    console.log("B: " + b);
+    console.log("C: " + c);
+}
+showNumbers(2, 4, 5);
+showNumbers(2, 4);

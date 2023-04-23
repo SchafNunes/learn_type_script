@@ -71,3 +71,14 @@ const objCoord = {x: 329, y: 452}
 passCooedinates(objCoord)
 
 const nomeFunc:{nome: string, sobrenome: string } = {nome: "Matheus", sobrenome: "Nunes"}
+
+// 8 - props opcionais
+function showNumbers(a: number, b: number, c?: number) {
+    console.log("A: " + a)
+    console.log("B: " + b)
+    console.log("C: " + c)
+}
+
+
+showNumbers(2,4,5) 
+showNumbers(2,4) 
