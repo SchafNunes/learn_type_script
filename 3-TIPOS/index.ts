@@ -59,3 +59,15 @@ setTimeout(function() {
     // console.log(sallary)
 
 }, 2000);
+
+// 7 - tipos de objetos
+function passCooedinates(coord: {x: number, y: number}) {
+    console.log("X coordinates: " + coord.x)
+    console.log("Y coordinates: " + coord.y)
+}
+
+const objCoord = {x: 329, y: 452}
+
+passCooedinates(objCoord)
+
+const nomeFunc:{nome: string, sobrenome: string } = {nome: "Matheus", sobrenome: "Nunes"}
