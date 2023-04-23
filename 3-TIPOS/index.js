@@ -27,3 +27,8 @@ function greeting(name) {
 }
 console.log(greeting("Matheus"));
 //console.log(greeting(12)) 
+// 6 - Função anonima
+setTimeout(function () {
+    const sallary = 1000;
+    // console.log(sallary)
+}, 2000);
