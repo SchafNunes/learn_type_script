@@ -155,3 +155,17 @@ interface Person {
 const somePerson: Person = {name:"Matheus", age: 43}
 
 console.log(somePerson)
+
+// 15 - literal types
+let test: "testando"
+
+test = "testando"
+
+console.log(test)
+
+function showDirection(direction: "left" | "right" | "center") {
+    console.log(`A direção é: ${direction}`)
+}
+
+showDirection("left")
+
