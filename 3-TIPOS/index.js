@@ -48,3 +48,12 @@ function showNumbers(a, b, c) {
 }
 showNumbers(2, 4, 5);
 showNumbers(2, 4);
+// 9 - Validando argumento opcional
+function advancedGreeting(firstName, lastName) {
+    if (lastName !== undefined) {
+        return `Olá, ${firstName} ${lastName}, tudo bem?`;
+    }
+    return `Olá, ${firstName}, tudo bem?`;
+}
+console.log(advancedGreeting("João", "Nunes"));
+console.log(advancedGreeting("João"));
