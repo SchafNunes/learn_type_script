@@ -103,3 +103,8 @@ console.log(p.innerText);
 let n;
 n = 1000n;
 console.log(n, typeof (n));
+// 18 - symblo
+let symbloA = Symbol("a");
+let symbloB = Symbol("a");
+console.log(symbloA == symbloB);
+console.log(symbloA === symbloB);

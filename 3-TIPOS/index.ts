@@ -180,3 +180,10 @@ let n: bigint
 n = 1000n
 
 console.log(n, typeof(n))
+
+// 18 - symblo
+let symbloA: symbol = Symbol("a")
+let symbloB: symbol = Symbol("a")
+
+console.log(symbloA == symbloB)
+console.log(symbloA === symbloB)
