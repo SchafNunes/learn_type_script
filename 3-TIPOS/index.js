@@ -77,3 +77,12 @@ function showId(id) {
 }
 showId(1);
 showId("um");
+function showCoords(obj) {
+    console.log(`X: ${obj.x} Y: ${obj.y} Z: ${obj.z}`);
+}
+const coordObj = {
+    x: 10,
+    y: 15,
+    z: 20
+};
+showCoords(coordObj);
