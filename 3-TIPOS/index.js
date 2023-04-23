@@ -21,3 +21,9 @@ function soma(a, b) {
     console.log(a + b);
 }
 soma(4, 8);
+// 5 - Tipando retorno de função
+function greeting(name) {
+    return `Olá ${name}`;
+}
+console.log(greeting("Matheus"));
+//console.log(greeting(12)) 

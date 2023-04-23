@@ -39,3 +39,14 @@ function soma(a: number, b: number) {
 }
 
 soma(4, 8)
+
+// 5 - Tipando retorno de função
+
+
+function greeting(name: string): string {
+    return `Olá ${name}`
+}
+
+console.log(greeting("Matheus")) 
+
+//console.log(greeting(12)) 
