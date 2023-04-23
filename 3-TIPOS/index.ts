@@ -169,3 +169,7 @@ function showDirection(direction: "left" | "right" | "center") {
 
 showDirection("left")
 
+// 16 - non null assertion operators 
+const p = document.getElementById("some-p")
+
+console.log(p!.innerText)
