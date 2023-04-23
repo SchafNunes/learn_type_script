@@ -102,3 +102,14 @@ function showBlance(balance: string | number) {
 
 showBlance('345')
 showBlance(345)
+
+// 11 - Avançando em union types
+function showUserRole(role: boolean | string) {
+    if(typeof(role) === "boolean") {
+        return "Usuário Não Aprovado!"
+    }
+    return `A função do usuário é: ${role}` 
+}
+
+console.log(showUserRole(false))
+console.log(showUserRole("Admin"))
