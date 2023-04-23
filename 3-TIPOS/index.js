@@ -72,3 +72,8 @@ function showUserRole(role) {
 }
 console.log(showUserRole(false));
 console.log(showUserRole("Admin"));
+function showId(id) {
+    console.log(`o ID é: ${id}`);
+}
+showId(1);
+showId("um");
