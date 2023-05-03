@@ -32,3 +32,13 @@ showReview(nota2);
 showReview(nota3);
 showReview(nota4);
 showReview(nota5);
+function showUserReview(aval) {
+    if (!aval) {
+        console.log("Você não avaliou o produto!");
+        return;
+    }
+    console.log(`A nota que você deu foi: ${aval}, obrigado!`);
+}
+showUserReview(3);
+showUserReview(2);
+showUserReview(false);
