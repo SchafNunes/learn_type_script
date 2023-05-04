@@ -83,3 +83,9 @@ function sumAll(...n) {
 }
 console.log(sumAll(1, 2, 3, 4, 5));
 console.log(sumAll(145, 2212));
+// 11 - destructuring como parametro
+function showProductDetails({ name, price }) {
+    return `Ó nome do produto é ${name} e ele custa R$${price}`;
+}
+const shirt = { name: "Camisa", price: 49.99 };
+console.log(showProductDetails(shirt));
