@@ -77,3 +77,9 @@ function showErrorMessage(msg) {
     throw new Error(msg);
 }
 //showErrorMessage("Algum erro!")
+// 10 - Rest operator 
+function sumAll(...n) {
+    return n.reduce((number, sum) => sum + number);
+}
+console.log(sumAll(1, 2, 3, 4, 5));
+console.log(sumAll(145, 2212));
