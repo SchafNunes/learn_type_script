@@ -46,3 +46,29 @@ function mergeArray(arr1, arr2) {
     return arr1.concat(arr2);
 }
 console.log(mergeArray([1, 2, 3], ["teste", "testando"]));
+// 6 - parametros opcionais 
+function modernGreeting(name, greet) {
+    if (greet) {
+        return `olá ${greet} ${name} tudo bem?`;
+    }
+    return `olá ${name} tudo bem?`;
+}
+console.log(modernGreeting("João", "Sir"));
+console.log(modernGreeting("João"));
+// 7 - parametro default
+function somaDefault(n, m = 10) {
+    return n + m;
+}
+console.log(somaDefault(10));
+console.log(somaDefault(10, 12));
+// 8 - unknown
+function doSomething(x) {
+    if (Array.isArray(x)) {
+        console.log(x[0]);
+    }
+    else if (typeof x === "number") {
+        console.log("X é um número");
+    }
+}
+doSomething([1, 2, 3]);
+doSomething(5);
