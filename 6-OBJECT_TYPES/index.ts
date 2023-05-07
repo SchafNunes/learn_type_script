@@ -68,3 +68,29 @@ let coords: CoordObject = {
 coords.Y = 15
 
 console.log(coords)
+
+// 5- Extending Interfaces
+interface Human {
+    name: string,
+    age: number
+}
+
+interface SuperHuman extends Human {
+    superPowers: string[]
+}
+
+const matheus: Human = {
+    name: "matheus",
+    age: 15
+}
+
+console.log(matheus)
+
+const jonas: SuperHuman = {
+    name: "matheus",
+    age: 15,
+    superPowers: ["força", "Invisibilidade"]
+}
+
+console.log(jonas)
+console.log(jonas.superPowers[1])

@@ -32,3 +32,15 @@ let coords = {
 };
 coords.Y = 15;
 console.log(coords);
+const matheus = {
+    name: "matheus",
+    age: 15
+};
+console.log(matheus);
+const jonas = {
+    name: "matheus",
+    age: 15,
+    superPowers: ["força", "Invisibilidade"]
+};
+console.log(jonas);
+console.log(jonas.superPowers[1]);
