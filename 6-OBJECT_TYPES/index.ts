@@ -94,3 +94,22 @@ const jonas: SuperHuman = {
 
 console.log(jonas)
 console.log(jonas.superPowers[1])
+
+// 6- intersection types
+interface Character {
+    name: string
+}
+interface Gun {
+    type: string,
+    caliber: number
+}
+
+type humanWithGun = Character & Gun
+
+const arnold: humanWithGun = {
+    name: "Arnold",
+    type: "Shotgun",
+    caliber: 12
+}
+
+console.log(arnold)

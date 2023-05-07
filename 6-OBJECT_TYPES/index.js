@@ -44,3 +44,9 @@ const jonas = {
 };
 console.log(jonas);
 console.log(jonas.superPowers[1]);
+const arnold = {
+    name: "Arnold",
+    type: "Shotgun",
+    caliber: 12
+};
+console.log(arnold);
