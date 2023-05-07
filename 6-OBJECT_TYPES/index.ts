@@ -40,3 +40,19 @@ const u2:User = {email: "joao@email.com"}
 
 showUserRole(u1)
 showUserRole(u2)
+
+// 3- readonly
+interface Car {
+    brand:string,
+    readonly wheels: number
+}
+
+const fusca:Car = {
+    brand: "WV",
+    wheels: 4
+}
+
+console.log(fusca)
+
+//fusca.wheels = 6
+

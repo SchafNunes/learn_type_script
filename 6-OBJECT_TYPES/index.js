@@ -22,3 +22,9 @@ const u1 = { email: "matheus@email.com", role: "admin" };
 const u2 = { email: "joao@email.com" };
 showUserRole(u1);
 showUserRole(u2);
+const fusca = {
+    brand: "WV",
+    wheels: 4
+};
+console.log(fusca);
+//fusca.wheels = 6
