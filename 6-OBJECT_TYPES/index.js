@@ -27,4 +27,8 @@ const fusca = {
     wheels: 4
 };
 console.log(fusca);
-//fusca.wheels = 6
+let coords = {
+    x: 10
+};
+coords.Y = 15;
+console.log(coords);

@@ -56,3 +56,15 @@ console.log(fusca)
 
 //fusca.wheels = 6
 
+// 4- index Signature
+interface CoordObject {
+    [index : string] :number
+}
+
+let coords: CoordObject = {
+    x: 10
+}
+
+coords.Y = 15
+
+console.log(coords)
