@@ -113,3 +113,18 @@ const arnold: humanWithGun = {
 }
 
 console.log(arnold)
+
+// 7- readonly array
+let myArray: ReadonlyArray<string> = ["Maça", "Laranja", "Banana"]
+
+console.log(myArray)
+
+myArray.forEach((item) => {
+    console.log("Fruta: " + item)
+})
+
+myArray = myArray.map((item) => {
+    return `Fruta: ${item}`
+})
+
+console.log(myArray)
