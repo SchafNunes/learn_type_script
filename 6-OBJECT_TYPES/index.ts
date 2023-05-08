@@ -137,3 +137,11 @@ const myNumberArray: fiveNumbers = [1,2,3,4,5]
 type nameAndAge = [string, number]
 
 const anotherUser: nameAndAge = ["Matheus", 20] 
+
+// 9- Tuplas com readonly 
+function showNumbers(numbers: readonly [number, number]) {
+    console.log(numbers[0])
+    console.log(numbers[1])
+}
+
+showNumbers([1,2])

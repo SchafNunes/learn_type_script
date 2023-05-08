@@ -62,3 +62,9 @@ myArray = myArray.map((item) => {
 console.log(myArray);
 const myNumberArray = [1, 2, 3, 4, 5];
 const anotherUser = ["Matheus", 20];
+// 9- Tuplas com readonly 
+function showNumbers(numbers) {
+    console.log(numbers[0]);
+    console.log(numbers[1]);
+}
+showNumbers([1, 2]);
