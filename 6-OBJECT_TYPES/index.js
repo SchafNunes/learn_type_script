@@ -60,3 +60,5 @@ myArray = myArray.map((item) => {
     return `Fruta: ${item}`;
 });
 console.log(myArray);
+const myNumberArray = [1, 2, 3, 4, 5];
+const anotherUser = ["Matheus", 20];
