@@ -14,3 +14,12 @@ const myCar = { name: "Agile", wheels: 4, engine: 1.0 };
 const myPen = { name: "Bic", wheels: false, engine: false };
 console.log(myCar);
 console.log(myPen);
+// 4- Type parameters
+function getSomeKey(obj, key) {
+    return `A chave ${[key]} está presente no objeto e tem valor de ${obj[key]}`;
+}
+const server = {
+    hd: '2TB',
+    ram: '32GB'
+};
+console.log(getSomeKey(server, 'ram'));
