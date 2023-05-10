@@ -14,3 +14,18 @@ function showProductName<T extends {name:string}>(obj: T) {
 console.log(showProductName({name: "porta", ativo: false}))
 //console.log(showProductName({ativo: false}))
 
+// 3- Generics com interface
+interface MyObject<T, U> {
+    name: string
+    wheels: T
+    engine: U
+}
+
+type Car = MyObject<number, number>
+type Pen = MyObject<boolean, boolean>
+
+const myCar:Car =  {name: "Agile", wheels: 4, engine: 1.0}
+const myPen:Pen = {name: "Bic", wheels: false, engine: false}
+
+console.log(myCar)
+console.log(myPen)

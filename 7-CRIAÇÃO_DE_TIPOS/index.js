@@ -10,4 +10,7 @@ function showProductName(obj) {
     return `O nome do produto é ${obj.name}`;
 }
 console.log(showProductName({ name: "porta", ativo: false }));
-//console.log(showProductName({ativo: false}))
+const myCar = { name: "Agile", wheels: 4, engine: 1.0 };
+const myPen = { name: "Bic", wheels: false, engine: false };
+console.log(myCar);
+console.log(myPen);
